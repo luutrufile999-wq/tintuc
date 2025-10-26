@@ -1,0 +1,97 @@
+# Tên của kịch bản
+name: Fetch News RSS
+
+# Lịch chạy: Chạy tự động 30 phút một lần
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  # Dòng này cho phép bạn chạy thủ công (để test)
+  workflow_dispatch:
+
+# Các công việc cần làm
+jobs:
+  fetch-rss:
+    # Chạy trên một máy ảo Ubuntu (do GitHub cung cấp)
+    runs-on: ubuntu-latest
+    
+    # Cấp quyền cho kịch bản để nó có thể "lưu" file vào kho chứa
+    permissions:
+      contents: write
+
+    steps:
+      # Bước 1: Tải code từ kho chứa của bạn về máy ảo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Bước 2: Cài đặt Python 3.10
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # Bước 3: Cài đặt thư viện Python (feedparser) để đọc RSS
+      - name: Install dependencies
+        run: |
+          pip install feedparser
+
+      # Bước 4: Chạy script Python để tải và phân tích RSS
+      - name: Fetch and Parse RSS
+      
+        # Báo cho GitHub Actions dùng "python" để chạy
+        shell: python 
+        
+        run: |
+          import feedparser
+          import json
+          import os
+
+          # Dùng RSS của Dân Trí (hoặc VnExpress nếu bạn muốn)
+          RSS_URL = "https://dantri.com.vn/rss/home.rss"
+          
+          # Giả mạo làm trình duyệt Firefox để tránh bị chặn
+          USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0"
+          
+          print(f"Fetching RSS from {RSS_URL} with User-Agent...")
+          feed = feedparser.parse(RSS_URL, agent=USER_AGENT)
+          
+          articles = [] # <--- THAY ĐỔI: Dùng một danh sách (list)
+          
+          if not feed.entries:
+              print("Error: Could not fetch RSS entries.")
+              articles.append({"id": 1, "title": "Lỗi", "summary": "Lỗi: Không thể tải tin tức."})
+          else:
+              print(f"Successfully fetched {len(feed.entries)} entries.")
+              
+              # Lấy 3 tin đầu tiên
+              for i, entry in enumerate(feed.entries[:3]):
+                  title = entry.title
+                  # Lấy 'summary' hoặc 'description', tùy cái nào có
+                  summary = entry.get('summary', entry.get('description', 'Không có nội dung chi tiết.'))
+                  
+                  # Thêm vào danh sách dưới dạng một đối tượng (object)
+                  articles.append({
+                      "id": i + 1,
+                      "title": title,
+                      "summary": summary
+                  })
+              
+          # Tạo nội dung JSON mới
+          json_output = {
+              "articles": articles
+          }
+          
+          # Ghi ra file news.json
+          with open('news.json', 'w', encoding='utf-8') as f:
+              json.dump(json_output, f, ensure_ascii=False, indent=2)
+          
+          print("news.json file created successfully.")
+
+      # Bước 5: Lưu file news.json mới vào kho chứa
+      - name: Commit and Push new news.json
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add news.json
+          # Chỉ lưu nếu có thay đổi
+          git commit -m "Update news.json with latest headlines" || echo "No changes to commit"
+          git push
