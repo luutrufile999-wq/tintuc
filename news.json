@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Chính phủ có chỉ đạo mới về việc sử dụng xăng E10",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/chinh-phu-co-chi-dao-moi-ve-viec-su-dung-xang-e10-20260616233443795.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/16/xang-e10-edited-1781627438375.jpg\" /></a>(Dân trí) - Theo Nghị quyết mới, xăng E10RON95-III được thí điểm xác định là mặt hàng tiêu dùng phổ biến, do Nhà nước công bố giá cơ sở thay thế xăng RON95-III."
+    },
+    {
+      "id": 2,
       "title": "Tài xế xe ôm bị khách cướp xe máy ở TPHCM",
       "summary": "<a href=\"https://dantri.com.vn/phap-luat/tai-xe-xe-om-bi-khach-cuop-xe-may-o-tphcm-20260616220105453.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/16/8920631c-1410-4712-8983-912050a3dbf9-1781621741618.jpg\" /></a>(Dân trí) - Cá độ đá gà qua mạng và thiếu nợ khoảng 300 triệu đồng, nam thanh niên dụ tài xế xe ôm công nghệ vào lô cao su ở xã Phước Hòa (TPHCM) rồi tấn công, cướp tài sản."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Đã tìm ra tác nhân khiến 124 người nhập viện sau khi ăn bánh mì",
       "summary": "<a href=\"https://dantri.com.vn/suc-khoe/da-tim-ra-tac-nhan-khien-124-nguoi-nhap-vien-sau-khi-an-banh-mi-20260616172401268.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/16/gia-laisalmonella-nghi-la-tac-nhan-khien-124-nguoi-nhap-vien-sau-khi-an-banh-midoan-cong-1jgp-1781604766429.jpg\" /></a>(Dân trí) - Kết quả xét nghiệm xác định 7 mẫu bệnh phẩm dương tính với Salmonella spp, nghi liên quan vụ ngộ độc khiến 124 người nhập viện sau khi ăn bánh mì tại cơ sở L.H. ở Gia Lai."
-    },
-    {
-      "id": 3,
-      "title": "Nam công nhân tử vong bất thường tại xưởng in ở TPHCM",
-      "summary": "<a href=\"https://dantri.com.vn/phap-luat/nam-cong-nhan-tu-vong-bat-thuong-tai-xuong-in-o-tphcm-20260616214937280.htm\"><img src=\"https://icdn.dantri.com.vn/2026/06/16/z7943859459316c38f6930227e0e8227c6859eab0c31d0-edited-cropped-1781621158485.jpg\" /></a>(Dân trí) - Thấy người đàn ông nằm ở khu vực nhà vệ sinh, các công nhân đến kiểm tra thì phát hiện đồng nghiệp đã tử vong. Vụ việc đang được Công an phường Phú Thạnh (TPHCM) điều tra."
     }
   ]
 }
