@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Bộ Ngoại giao khẩn trương hỗ trợ khắc phục hậu quả vụ tai nạn lật ca nô ở Phú Quốc",
+      "summary": "<a href=\"https://dantri.com.vn/thoi-su/bo-ngoai-giao-khan-truong-ho-tro-khac-phuc-hau-qua-vu-tai-nan-lat-ca-no-o-phu-quoc-20260712231740398.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/12/cuu-nan-phu-quocttxvn-cropped-1783872756681.jpg\" /></a>Đoàn công tác của Bộ Ngoại giao đã trực tiếp đến hiện trường để phối hợp chặt chẽ với Đại sứ quán Ấn Độ tại Hà Nội, Tổng Lãnh sự quán Ấn Độ tại TPHCM hỗ trợ các nạn nhân."
+    },
+    {
+      "id": 2,
       "title": "Cháy nhà 3 tầng ở TPHCM, nhiều tài sản bị thiêu rụi",
       "summary": "<a href=\"https://dantri.com.vn/thoi-su/chay-nha-3-tang-o-tphcm-nhieu-tai-san-bi-thieu-rui-20260712215207133.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/12/chay13-1783867708350.jpg\" /></a>(Dân trí) - Đám cháy bùng phát tại căn nhà 3 tầng vừa để ở, vừa kết hợp kinh doanh trên đường Phan Văn Trị (phường Gò Vấp, TPHCM) làm nhiều tài sản bị thiêu rụi."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Tổng thống Ukraine muốn thay Thủ tướng, cải tổ nội các",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/tong-thong-ukraine-muon-thay-thu-tuong-cai-to-noi-cac-20260712214344549.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/12/thu-tuong-ukrainereuters-cropped-1783867300255.jpg\" /></a>(Dân trí) - Tổng thống Ukraine Volodymyr Zelensky ngày 12/7 cho biết ông đã đề xuất thay thế Thủ tướng Yulia Svyrydenko."
-    },
-    {
-      "id": 3,
-      "title": "Thông tin chính thức vụ nghi vấn thí sinh dùng điện thoại trong phòng thi",
-      "summary": "<a href=\"https://dantri.com.vn/giao-duc/thong-tin-chinh-thuc-vu-nghi-van-thi-sinh-dung-dien-thoai-trong-phong-thi-20260712182959228.htm\"><img src=\"https://icdn.dantri.com.vn/2026/07/12/giao-duc-thong-tin-chinh-thuc-vu-nghi-van-thi-sinh-dung-dien-thoai-trong-phong-thicong-son-1783855597131.jpg\" /></a>(Dân trí) - Sở Giáo dục và Đào tạo (GD&ĐT) tỉnh Gia Lai đã có kết quả xác minh thông tin nghi vấn thí sinh gian lận trong kỳ thi tốt nghiệp THPT năm 2026 lan truyền trên mạng xã hội."
     }
   ]
 }
