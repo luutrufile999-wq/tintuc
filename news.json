@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
-      "title": "Hà Nội nắng nóng gần 39 độ C",
-      "summary": "<a href=\"https://dantri.com.vn/thoi-tiet/ha-noi-nang-nong-gan-39-do-c-20260810213601733.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/10/nang-nong-gia-tang-tren-ca-nuoc-cuong-do-gay-gat-hon-nhieu-nam-1775660055064-1781358888622-1786372410431.jpg\" /></a>(Dân trí) - Dự báo ngày 11-12/8, Bắc Bộ và nhiều tỉnh, thành tại Trung Bộ tiếp tục nắng nóng, có nơi nắng nóng gay gắt trên 38 độ C. Tại Trung Bộ, nắng nóng có khả năng kéo dài nhiều ngày."
-    },
-    {
-      "id": 2,
       "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm đến thủ đô Canberra, tiếp tục chuyến thăm cấp Nhà nước Australia",
       "summary": "<a href=\"https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-den-thu-do-canberra-tiep-tuc-chuyen-tham-cap-nha-nuoc-australia-20260810230230837.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/10/tong-bi-thu-chu-tich-nuoc-to-lam-den-thu-do-canberra-tiep-tuc-chuong-trinh-tham-cap-nha-nuoc-australia-8945888-cropped-1786377670366.jpg\" /></a>Tổng Bí thư, Chủ tịch nước Tô Lâm cùng Đoàn đại biểu cấp cao Việt Nam đã đến thủ đô Canberra, tiếp tục chuyến thăm cấp Nhà nước Australia từ 9-12/8, theo lời mời của Toàn quyền Australia Sam Mostyn."
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Ukraine dồn dập khai hỏa, tấn công hàng loạt mục tiêu trong lãnh thổ Nga",
       "summary": "<a href=\"https://dantri.com.vn/the-gioi/ukraine-don-dap-khai-hoa-tan-cong-hang-loat-muc-tieu-trong-lanh-tho-nga-20260810221535359.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/10/chay-donetsk-cropped-1786374767052.jpg\" /></a>(Dân trí) - Ukraine tiếp tục triển khai hàng trăm UAV tấn công các mục tiêu trong lãnh thổ Nga nhằm gây sức ép với Moscow."
+    },
+    {
+      "id": 3,
+      "title": "Tim ngừng đập trên bàn mổ, bệnh nhân vỡ phình động mạch chủ được cứu sống",
+      "summary": "<a href=\"https://dantri.com.vn/suc-khoe/tim-ngung-dap-tren-ban-mo-benh-nhan-vo-phinh-dong-mach-chu-duoc-cuu-song-20260810211429600.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/10/benh-nhan-vo-phinh-dong-mach-chu-duoc-cuu-song-cropped-1786371076617.jpg\" /></a>(Dân trí) - Người đàn ông 65 tuổi bị vỡ phình động mạch chủ bụng, sốc mất máu nặng, có thời điểm tim ngừng đập trên bàn mổ nhưng được các bác sĩ Bệnh viện Thống Nhất cứu sống."
     }
   ]
 }
