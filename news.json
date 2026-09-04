@@ -2,8 +2,18 @@
   "articles": [
     {
       "id": 1,
-      "title": "Lỗi",
-      "summary": "Lỗi: Không thể tải tin tức."
+      "title": "Gia đình kiệt quệ vì 10 năm con trai chống chọi với ung thư máu",
+      "summary": "<a href=\"https://dantri.com.vn/tam-long-nhan-ai/gia-dinh-kiet-que-vi-10-nam-con-trai-chong-choi-voi-ung-thu-mau-20260809215605572.htm\"><img src=\"https://icdn.dantri.com.vn/2026/08/09/hoan-canh-nguyen-van-danhbao-ky-6-edited-1786287145796.jpg?watermark=true\" /></a>(Dân trí) - Con trai ung thư máu, anh Danh xoay trở đủ bề để lo cho con nhưng gần như ngày càng rơi vào bế tắc. Vì trồng cam thua lỗ, làm mướn không ai thuê, xin việc làm ở một cơ quan lại càng khó."
+    },
+    {
+      "id": 2,
+      "title": "Range Rover Electric chạy 600km mỗi lần sạc",
+      "summary": "<a href=\"https://dantri.com.vn/o-to-xe-may/range-rover-electric-chay-600km-moi-lan-sac-20260904010505214.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/03/range-rover-electric-exterior-9-edited-1788450242337.jpg\" /></a>(Dân trí) - Dòng SUV đầu bảng Range Rover chính thức có phiên bản đầu tiên chạy hoàn toàn bằng điện, sở hữu công suất 542 mã lực và phạm vi hoạt động 600km mỗi lần sạc."
+    },
+    {
+      "id": 3,
+      "title": "Công ty bất động sản liên quan ông Vũ Văn Tiền lỗ hơn 93 tỷ đồng",
+      "summary": "<a href=\"https://dantri.com.vn/bat-dong-san/cong-ty-bat-dong-san-lien-quan-ong-vu-van-tien-lo-hon-93-ty-dong-20260904093840377.htm\"><img src=\"https://icdn.dantri.com.vn/2026/09/04/doi-rong-cropped-1788489436976.jpg\" /></a>(Dân trí) - Đây là công ty bất động sản thuộc hệ sinh thái Geleximco, đồng thời là chủ đầu tư Khu Du lịch Quốc tế Đồi Rồng tại phường Vạn Hương, TP Hải Phòng. Công ty đang có dư nợ đến 1 tỷ USD."
     }
   ]
 }
