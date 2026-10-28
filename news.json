@@ -2,18 +2,18 @@
   "articles": [
     {
       "id": 1,
+      "title": "Fed giữ nguyên lãi suất, hai thành viên bỏ phiếu ngược",
+      "summary": "<a href=\"https://dantri.com.vn/kinh-doanh/fed-giu-nguyen-lai-suat-hai-thanh-vien-bo-phieu-nguoc-20261029011557538.htm\"><img src=\"https://icdn.dantri.com.vn/2026/10/29/kevin-warsh-cropped-1793211209451.jpg\" /></a>(Dân trí) - Cục Dự trữ Liên bang Mỹ (Fed) vừa quyết định giữ nguyên lãi suất ở mức 3,75-4%. Động thái này giúp thị trường tạm thở phào, song áp lực tăng lãi suất vào cuối năm vẫn rất lớn."
+    },
+    {
+      "id": 2,
       "title": "Miền Bắc giảm nhiệt, miền Trung mưa rất to, nguy cơ lũ",
       "summary": "<a href=\"https://dantri.com.vn/dt360/mien-bac-giam-nhiet-mien-trung-mua-rat-to-nguy-co-lu-20261028233452823.htm\"><img src=\"https://icdn.dantri.com.vn/2026/10/29/mua-ngap-nha-trangtrung-thi-5-edited-1793207155123.jpg\" /></a>(Dân trí) - Miền Bắc giảm nhiệt, nhiều nơi có mưa rào và dông. Trong khi đó, từ Hà Tĩnh đến Đà Nẵng tiếp tục mưa lớn, có nơi trên 250mm; Huế đối mặt nguy cơ lũ, ngập lụt và sạt lở đất."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Miền Trung tiếp tục mưa to, có nơi trên 200mm",
       "summary": "<a href=\"https://dantri.com.vn/thoi-tiet/mien-trung-tiep-tuc-mua-to-co-noi-tren-200mm-20261028221720265.htm\"><img src=\"https://icdn.dantri.com.vn/2025/06/25/0jpg-1750859069984.jpg\" /></a>(Dân trí) - Cơ quan khí tượng nhận định khu vực Trung Bộ còn mưa to đến rất to hết ngày 29/10, mưa tập trung ở khu vực phía Nam tỉnh Quảng Trị, Huế và phía Đông Bắc Đà Nẵng."
-    },
-    {
-      "id": 3,
-      "title": "Thể Công Viettel thua đậm đội bóng Hàn Quốc ở Cúp C2 châu Á",
-      "summary": "<a href=\"https://dantri.com.vn/the-thao/the-cong-viettel-thua-dam-doi-bong-han-quoc-o-cup-c2-chau-a-20261028224221750.htm\"><img src=\"https://icdn.dantri.com.vn/2026/10/28/thecong2dmq-1793202576922.jpg\" /></a>(Dân trí) - Đối diện với nhà vô địch giải bóng đá nhà nghề Hàn Quốc K-League FC Seoul, CLB Thể Công Viettel nhận trận thua đậm 0-5."
     }
   ]
 }
